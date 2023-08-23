@@ -9,14 +9,14 @@ class Operations
 {
 	public static void operation(String operation, int a, int b){
 		System.out.println(operation);
-		System.out.println(a/b);
+		System.out.println(a%b);
 		
 	}
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		int num1 = 1;
 		int num2 = 2;
-		String operation = "/";
+		String operation = "%";
 		operation(operation,num2,num1);
 	}
 }
